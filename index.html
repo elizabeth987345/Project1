@@ -2,8 +2,17 @@
 layout: default
 title: Home
 ---
-
-
-
-<h1>Hello World</h1>
-kkhoih
+<button class="btn btn-outline btn-primary">Primary</button>
+<button class="btn btn-outline btn-success">Success</button>
+<button class="btn btn-outline btn-error">Error</button>
+<button class="btn" onclick="my_modal_3.showModal()">open modal</button>
+<dialog id="my_modal_3" class="modal">
+  <div class="modal-box">
+    <form method="dialog">
+      <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+    </form>
+    <h3 class="text-lg font-bold">Hello!</h3>
+    <p class="py-4">Press 1 key or click on ✕ button to close</p>
+    <img src="https://static.vecteezy.com/system/resources/previews/000/564/599/original/vector-simple-arrow-sign-icon.jpg" alt="Italian Trulli">
+  </div>
+</dialog>
